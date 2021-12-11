@@ -4,7 +4,7 @@ win.o : win.h
 affichage.o : variables.h
 decoupe.o : variables.h
 position.o : variables.h
-gameplay.o : variables.h
+gameplay.o : win.h variables.h
 lobby.o : variables.h
 main.o : affichage.h decoupe.h position.h gameplay.h lobby.h variables.h
 
